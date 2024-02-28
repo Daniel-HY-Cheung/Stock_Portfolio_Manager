@@ -22,11 +22,9 @@ This project is a stock portfolio manager that utilizes historical stock data in
 - Implement a user-friendly interface for easier interaction with the portfolio manager.
 
 ### Files
-- Baglearning.py
-- DTLearner.py
-- RTLearner.py
-- marketsimcode.py
-- ManualStrategy.py
-- experiment1.py
-- experiment2.py
-- indicators.py
+- Baglearning.py: Bagging algorithm that operates using another learning strategy
+- DTLearner.py: decision tree learning algorithm
+- RTLearner.py: random tree learning algorithm
+- ImpactExperiment.py: visualizes the effect of different impact costs on the machine learning strategy
+- ManualVsStrategy.py: compares machine learning approach with a basic manual strategy (control strategy); visualizes results for in-sample and out-sample tests
+- StrategyLearning.py: machine learning strategy (defaults to bagged random tree strategy)
